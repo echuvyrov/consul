@@ -18,7 +18,7 @@ Not all servers in Consul world are equal - there’s a leader server that proce
 
 The diagram below (courtesy of HashiCorp) shows how Consul is able to scale to modern-day workloads across multiple data centers. There are 3 core concepts, some of which we have briefly covered above, that enable service discovery in a distributed environment like Microsoft Azure. Those components are (1) LAN Gossip, (2) Leader Election and (3) WAN Gossip protocol. Let’s briefly examine how these concepts complement each other in Consul.
 
-![Consul Architecture](https://github.com/echuvyrov)
+![Consul Architecture](https://github.com/echuvyrov/consul/architecture.png)
 
 The recommended pool of Consul servers should be between three and five nodes. After you deploy Consul servers inside a data center, LAN gossip protocol allows them to be automatically discovered by the clients, significantly simplifying cluster configuration. Next, as part of consensus protocol (Raft in Consul), a leader is elected among the servers deployed. The leader becomes responsible for fulfilling all the queries from the clients. Should a leader server go down or become unreachable, a new leader will be elected without disrupting service discovery.  Finally, WAN pool allows servers from different data centers to process cross-datacenter requests. Unlike LAN pool, WAN pool is optimized for the higher latency of the internet and is expected to contain only other Consul server nodes.
 
