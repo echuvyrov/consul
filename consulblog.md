@@ -27,7 +27,7 @@ By now, hopefully you are starting to understand how Consul is able to meet dyna
 ### Consul on Azure
 You can install either a single or a multi-datacenter Consul on Azure by executing a set of Terraform templates found in HashiCorp Guides repo on Github: 
 
-  https://github.com/hashicorp-guides/azure-consul (https://github.com/hashicorp-guides/azure-consul)
+  https://github.com/hashicorp-guides/azure-consul
 
 If you’re not familiar with Terraform, it’s a very popular DevOps tool from HashiCorp that allows you to easily provision infrastructure into Azure. You can learn more about Terraform in Azure on [docs.microsoft.com](http://docs.microsoft.com/azure/virtual-machines/terraform-install-configure). You should install and configure Terraform for Azure before proceeding with the installation of Consul.
 
