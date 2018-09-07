@@ -44,7 +44,9 @@ $ az ad sp create-for-rbac --role="Reader" --scopes="/subscriptions/[YOUR_SUBSCR
 3. Once your clusters have been provisioned you can ssh into one (or all) of them to check your cluster status:
 ◦	consul members [-wan]
 
-If you see a list of consul member nodes as output, you have successfully provisioned Consul cluster in Azure.
+If you see a list of consul member nodes as output as in the screen shot below, you have successfully provisioned Consul cluster in Azure.
+
+![Consul Cluster](https://github.com/echuvyrov/consul/blob/master/consulscreenshot.png)
 
 ### Automated Upgrades, Advanced Federation and Service Mesh
 With Consul up and running, your services in Azure can now register themselves, as well as perform service lookup in a dynamic, highly resilient fashion. Sometimes, however, organizations may desire that not all of their data centers be connected to each other in Consul; instead, they might prefer a hub-and-spoke system of WAN gossip protocol, where hub data centers can talk to other hub data centers, but spoke data centers cannot talk to other data centers. Although beyond the scope of this blog post, [Advanced Federation](https://www.consul.io/docs/enterprise/federation/index.html) in Consul allows for such configuration. 
