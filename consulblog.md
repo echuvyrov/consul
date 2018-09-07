@@ -52,8 +52,8 @@ Finally, with the release of Consul 1.2, HashiCorp has introduced a feature call
 ### Conclusion and Further Info
 You now have the basic understanding of what Consul does, how it does it and how you can make it work for you in Azure. To learn more about Consul, visit the following links
 
-[Consul Enterprise landing page:](https://www.consul.io/docs/enterprise/index.html)
+Consul Enterprise landing page: [https://www.consul.io/docs/enterprise/index.html](https://www.consul.io/docs/enterprise/index.html)
 
-[Consul Blog:](https://www.hashicorp.com/blog/category/consul)
+Consul Blog: [https://www.hashicorp.com/blog/category/consul](https://www.hashicorp.com/blog/category/consul)
 
 
