@@ -25,7 +25,11 @@ The recommended pool of Consul servers should be between three and five nodes. A
 By now, hopefully you are starting to understand how Consul is able to meet dynamic modern applications service discovery requirements. Now, let’s see how to install and run Consul on Azure.
 
 ### Consul on Azure
-You can install either a single or a multi-datacenter Consul on Azure by executing a set of Terraform templates [found in HashiCorp Guides repo on Github](https://github.com/hashicorp-guides/azure-consul). If you’re not familiar with Terraform, it’s a very popular DevOps tool from HashiCorp that allows you to easily provision infrastructure into Azure. You can learn more about Terraform in Azure on [docs.microsoft.com](http://docs.microsoft.com/azure/virtual-machines/terraform-install-configure). You should install and configure Terraform for Azure before proceeding with the installation of Consul.
+You can install either a single or a multi-datacenter Consul on Azure by executing a set of Terraform templates found in HashiCorp Guides repo on Github: 
+
+  https://github.com/hashicorp-guides/azure-consul (https://github.com/hashicorp-guides/azure-consul)
+
+If you’re not familiar with Terraform, it’s a very popular DevOps tool from HashiCorp that allows you to easily provision infrastructure into Azure. You can learn more about Terraform in Azure on [docs.microsoft.com](http://docs.microsoft.com/azure/virtual-machines/terraform-install-configure). You should install and configure Terraform for Azure before proceeding with the installation of Consul.
 
 Go ahead and clone the repo with Consul provisioning scripts referenced above. After you create security credentials for Terraform in Azure ([as described here](http://docs.microsoft.com/azure/virtual-machines/terraform-install-configure)), you can follow the instructions in the repo [you just cloned](https://github.com/hashicorp-guides/azure-consul). These instructions can be broken down into two parts: the first part creates a read-only security mechanism that allows Consul agents to auto-join the Consul cluster; the second actually installs Consul. For convenience, a very abbreviated version of those steps have been copied below:
 
