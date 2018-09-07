@@ -50,7 +50,7 @@ Additionally, [Automated Upgrades](https://www.consul.io/docs/enterprise/upgrade
 Finally, with the release of Consul 1.2, HashiCorp has introduced a feature called Connect, which turns Consul into a complete Service Mesh solution. We will take a look at the Connect feature of Consul and working with it in Azure in Part 2 of this article.
 
 ### Conclusion and Further Info
-You now have the basic understanding of what Consul does, how it does it and how you can make it work for you in Azure. To learn more about Consul, visit the following links
+You now have the basic understanding of what Consul does, how it does it and how you can make it work for you in Azure. To learn more about Consul, visit the following links and also take a look at Part 2 of this article, which will explore Consul as an enterprise service mesh solution.
 
 Consul Enterprise landing page: [https://www.consul.io/docs/enterprise/index.html](https://www.consul.io/docs/enterprise/index.html)
 
