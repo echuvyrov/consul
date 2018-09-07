@@ -1,4 +1,5 @@
-## Modern Service Discovery with Consul on Azure - Part 1
+## Modern Service Discovery with Consul on Azure
+### Part 1 - Intro, Brief Architectural Overview and Deployment to Azure
 
 This two-part article introduces you to Consul, a modern service discovery system from HashiCorp. In the first part, we will frame the problem that Consul was designed to solve and will go over basic architectural principles underlying the system. Then, we will show you how you can deploy Consul on Azure and conclude with enterprise features of Consul and pointers to further technical information about the product. In the second part, we will dive into features introduced in Consul v1.2, which turned Consul into a full-blown service mesh solution.
 
