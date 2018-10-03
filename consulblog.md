@@ -30,9 +30,9 @@ The recommended pool of Consul servers should be between three and five nodes. A
 You have seen how Consul is able to meet dynamic modern applications service discovery, configuration and uptime requirements. Now, let’s see how to install and run Consul on Azure.
 
 ### Consul on Azure
-You can install either a single or a multi-datacenter Consul on Azure by executing a set of Terraform templates found in HashiCorp Guides repo on Github: 
+You can install either a single or a multi-datacenter Consul on Azure by executing a set of Terraform templates found in the quickstart guide on Github: 
 
-  https://github.com/hashicorp-guides/azure-consul
+  https://github.com/hashicorp/azure-consul
 
 If you’re not familiar with Terraform, it’s a very popular DevOps tool from HashiCorp that allows you to easily provision infrastructure into Azure. You can learn more about Terraform in Azure on [docs.microsoft.com](https://docs.microsoft.com/en-us/azure/terraform/). You should install and configure Terraform for Azure before proceeding with the installation of Consul.
 
